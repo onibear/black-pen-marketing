@@ -34,7 +34,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', end
 
 }
 .logo{
-	margin-top: 0px;
+	margin-top: 10px;
 	padding:0px;
 	float: left;
 	color: black;
@@ -43,16 +43,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', end
 	width: 350px;
 	
 }
-
-.buttons {
-	margin-top: 30px;
-	float: center;
-	width: 500px:
-	height: auto;
+.button {
+	font-family:font-family: Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	margin-top: 5px;
+	padding:0px;
+	height: 60px;
+	width: 100px;
+	color:black;
 }
 
 .button:hover {
-	background:#afafaf;
+	font-size: 30px;
 	color:red;
 }
 
