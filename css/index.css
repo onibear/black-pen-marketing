@@ -1,0 +1,72 @@
+body {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.container{
+	width: auto;
+	height:auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.head_container {
+	box-shadow: 0px 10px 10px #888;
+	margin-top: 0px;
+	margin-bottom: 40px;
+	padding: 0px;
+	width: 100%;
+	height: 60px;
+	/* background was made with a css gradient generator 
+	 Don't get mad tampy, it was just to look good*/
+	
+	background: #eeeeee; /* Old browsers */
+	background: -moz-linear-gradient(top,  #eeeeee 0%, #dbdbdb 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(100%,#dbdbdb)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #eeeeee 0%,#dbdbdb 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #eeeeee 0%,#dbdbdb 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #eeeeee 0%,#dbdbdb 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #eeeeee 0%,#dbdbdb 100%); /* W3C */
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#dbdbdb',GradientType=0 ); /* IE6-9 */
+
+
+}
+.logo{
+	margin-top: 0px;
+	padding:0px;
+	float: left;
+	color: black;
+	text-align: center;
+	height: 50px;
+	width: 350px;
+	
+}
+
+.buttons {
+	margin-top: 30px;
+	float: center;
+	width: 500px:
+	height: auto;
+}
+
+.button:hover {
+	background:#afafaf;
+	color:red;
+}
+
+.contain_bod{
+	margin-left: auto;
+	margin-right: auto;
+	background: #DBDBDB;
+	width: 800px;
+	height: 450px;
+	margin-top: 20px;
+	
+	/* Shadow I learned from some css 	 tutorials. */
+	-moz-box-shadow: 0 0 5px 5px #888;
+	-webkit-box-shadow: 0 0 5px 5px#888;
+	box-shadow: 0 0 5px 5px #888;
+
+}
